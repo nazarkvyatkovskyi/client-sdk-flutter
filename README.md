@@ -1,5 +1,14 @@
 # Vapi Flutter SDK
 
+## Fixes and improvements 
+
+- Fixed timeout handling by replacing nested Future.delayed with a direct Timer
+- Added comprehensive error reporting with specific status codes and messages
+- Enhanced debug logging throughout the connection process
+- Improved client creation with better retry mechanism
+- Added detailed event emission tracking
+- Clarified source of "Ready" messages from different participant events
+
 ## Minimum requirements
 
 The Daily Client SDK for Flutter requires the following versions:
